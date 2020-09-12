@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import List from './List'
-
 class SquadStats extends Component {
   stats(attribute) {
     let result = this.props.heroes.reduce((accumulator, hero) => {
